@@ -12,6 +12,7 @@ class DatePicker : AppCompatActivity() {
         setContentView(R.layout.activity_date_picker)
 
         val today = Calendar.getInstance()
+
         date_picker.init(today.get(Calendar.YEAR),today.get(Calendar.MONTH),today.get(Calendar.DAY_OF_MONTH)){
             view,year,month , day ->
             val msg = "You Selected: $day/$month/$year"

@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".SearchView"></activity>
+        <activity android:name=".MercuryFragment"></activity>
+        <activity android:name=".VenusFragment" />
+        <activity android:name=".Tab_Layout" />
+        <activity android:name=".SearchView" />
         <activity android:name=".View_Stub" />
         <activity android:name=".ImageSwitcher" />
         <activity android:name=".Horizontal_ScrollView" />
