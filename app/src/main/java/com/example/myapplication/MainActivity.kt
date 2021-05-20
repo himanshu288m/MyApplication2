@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
 
        btnActivity.setOnClickListener {
-           val intent = Intent(this,Spinner::class.java)
+           val intent = Intent(this,Tab_Layout::class.java)
            startActivity(intent)
        }
 
